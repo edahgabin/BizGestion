@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f3f5fb">
+  <title>Paiement Chariow · BizGestion</title>
+  <link rel="stylesheet" href="https://js.chariowcdn.com/v1/widget.min.css">
+  <style>
+    * { box-sizing: border-box; }
+    html { min-height: 100%; background: #f3f5fb; }
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      margin: 0;
+      padding: max(16px, env(safe-area-inset-top)) 16px max(28px, env(safe-area-inset-bottom));
+      color: #27363e;
+      font: 16px/1.5 Arial, sans-serif;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    main { width: min(100%, 680px); margin: 0 auto; }
+    .back { display: inline-flex; min-height: 44px; align-items: center; color: #26348d; text-decoration: none; font-weight: 600; }
+    .card { margin-top: 10px; padding: 20px; border: 1px solid #e1e6f0; border-radius: 20px; background: #fff; box-shadow: 0 4px 18px #1e2b5510; }
+    h1 { margin: 0 0 4px; font-size: 22px; }
+    .product { margin: 0; font-weight: 600; }
+    .price { margin: 4px 0 10px; color: #26348d; font-size: 20px; font-weight: 700; }
+    .note { margin: 0 0 18px; color: #66727a; }
+    #chariow-widget { width: 100%; min-height: 360px; }
+  </style>
+</head>
+<body>
+  <main>
+    <a class="back" href="/">← Retour à BizGestion</a>
+    <section class="card">
+      <h1>Paiement sécurisé Chariow</h1>
+      <p class="product">Créer un compte PayPal depuis l’Afrique</p>
+      <p class="price">2 500 FCFA</p>
+      <p class="note">Vérifie les informations du produit, puis fais défiler le formulaire pour terminer le paiement.</p>
+      <div id="chariow-widget"
+           data-product-id="prd_1ky63d67"
+           data-store-domain="afviiuxf.mychariow.online"
+           data-style="frame"
+           data-border-style="rounded"
+           data-cta-width="xs"
+           data-background-color="#FFFFFF"
+           data-cta-animation="shine"
+           data-locale="fr"
+           data-primary-color="#ffcc00"></div>
+    </section>
+  </main>
+  <script async src="https://js.chariowcdn.com/v1/widget.min.js"></script>
+</body>
+</html>
