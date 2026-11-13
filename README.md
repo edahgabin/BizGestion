@@ -96,3 +96,20 @@ Déposer le dossier `build/web` dans Netlify Drop. Les fichiers `_redirects` et 
 - `supabase_*.sql` : schéma et politiques Supabase.
 - `test/` : tests Flutter.
  91523fb (Première publication de BizGestion)
+
+ ## Aperçu de l’application
+
+### Tableau de bord
+![Tableau de bord BizGestion](docs/images/home.png)
+
+### Ventes
+![Gestion des ventes](docs/images/sales.png)
+
+### Stock
+![Gestion du stock](docs/images/stock.png)
+
+### Caisse
+![Journal de caisse](docs/images/cash_register.png)
+
+### Assistant IA
+![Assistant IA BizGestion](docs/images/assistant_ia.png)
